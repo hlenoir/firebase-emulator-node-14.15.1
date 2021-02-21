@@ -4,4 +4,4 @@ RUN apt update && apt install -y \
   openjdk-8-jre &&  \
   rm -rf /var/lib/apt/lists/*
 
-RUN yarn global add firebase-tools@9.2.2
+RUN yarn global add firebase-tools@9.4.0
